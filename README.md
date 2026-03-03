@@ -12,13 +12,10 @@ For the training of the model, the publicly available Leipzig Corpora Collection
 - Domain: German Wikipedia (1,000,000 sentences)
 - URL: https://wortschatz.uni-leipzig.de/en/download/deu 
 
-## Prerequisites
-- Python 3.14.3
-- CUDA 13.0 (optional)
-
 ## Getting started
-1. Install Python
-2. Install PyTorch
+1. Install CUDA 13.0 (optional)
+2. Install Python (3.14.3)
+2. Install required Python packages ([requirements.txt](requirements.txt))
 
 ## Plan
 
