@@ -25,4 +25,5 @@ For the training of the model, the publicly available Leipzig Corpora Collection
 #### 1. Tokenization
 OpenAI's _tiktoken_ tokenizer is used to tokenize the beforementioned dataset.
 
-#### 2.Input-target pairs / data loader
+#### 2. Data loader
+PyTorchs Dataset and DataLoader is utilized to create a dataloader for generating batched inputs and targets.
