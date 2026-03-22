@@ -19,6 +19,18 @@ For the training of the model, the publicly available Leipzig Corpora Collection
 
 ## Plan
 
+```mermaid
+graph TD;
+
+    %% Nodes
+    N0("Tokenization")
+    N1("Data Loader")
+    
+    %% Edges
+        N0-->N1;
+
+```
+
 #### 1. Tokenization
 OpenAI's _tiktoken_ tokenizer is used to tokenize the beforementioned dataset.
 
